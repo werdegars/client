@@ -17,10 +17,6 @@ jobs:
         with:
           php-version: '8.0'
 
-      - name: Install dependencies
-        run: |
-          composer install
-
       - name: Build
         run: |
           npm install
